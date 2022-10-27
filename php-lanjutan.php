@@ -123,10 +123,10 @@ echo $pesan;
         if(!empty($_POST['submit'])) {
             
             switch($_POST['nama']){
-                case "Putu":
-                    $pesan = $_POST['nama']." adalah orang Bali";
+                case "Ade":
+                    $pesan = $_POST['nama']." berasal dari Bali";
                 break;
-                case "Budi":
+                case "Alfred":
                     $pesan = $_POST['nama']." berasal dari pulau Jawa";
                 break;
                 default:
